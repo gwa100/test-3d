@@ -2,7 +2,7 @@ const scene = new THREE.Scene();
 
 
 // camera
-const camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
+const camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 ); // fix scaled cube
 camera.position.z = 5;
 
 

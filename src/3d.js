@@ -28,7 +28,6 @@ const mesh = new THREE.Mesh(geometry, material);
 // add mesh to scene
 scene.add(mesh);
 
-
 // rendering
 function render() {
     requestAnimationFrame(render);

@@ -1,23 +1,22 @@
 @font-face {
     font-family: CascadiaCode;
-    src: url("https://github.com/gwa100/test-3d/blob/main/CascadiaCode.ttf");
-}
-.div {
-    font-family: CascadiaCode;
+    src: local("./CascadiaCode.ttf");
 }
 #enemyHealth {
-    width: 250px;
+    width: 300px;
     height: 50px;
 	top: 65%;
-    left: 42.75%;
+    left: 41.5%;
     position:absolute;
     border: orange 7px solid;
     background-color: black;
     color: white;
     font-size: 25px;
 }
+#hp_num {
+    font-family: CascadiaCode;
+}
 #enemyHealthBar {
-    width: 240px;
     height: 25px;
     position:absolute;
     background-color: red;

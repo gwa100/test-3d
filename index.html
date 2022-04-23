@@ -4,14 +4,16 @@
 <meta charset="utf-8">
 <title>3D Test</title>
 <link rel="stylesheet" href="style.css">
+<script src="src/break_eternity.js"defer></script>
 <script src="three.js"></script>
-<script src="src/scene.js"></script>
+<script src="src/3d.js"></script>
+<script src="src/game.js"defer></script>
 </head>
 <body style="margin: 0;width: device-width;height: device-height">
     <center>
-        <div id="enemyHealth" style="background-color: black;">
-            10.48 HP
-            <div id ="enemyHealthBar"></div>
+        <div id="enemyHealth" style="background-color: black;" onclick="damage()">
+            <span id = "hp_num">10.48 HP</span>
+            <div id ="enemyHealthBar" ></div>
         </div>
     </center>
 </body>

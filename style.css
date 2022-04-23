@@ -1,0 +1,24 @@
+@font-face {
+    font-family: CascadiaCode;
+    src: local("./CascadiaCode.ttf")
+}
+.div {
+    font-family: CascadiaCode;
+}
+#enemyHealth {
+    width: 250px;
+    height: 50px;
+	top: 65%;
+    left: 42.75%;
+    position:absolute;
+    border: orange 7px solid;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+#enemyHealthBar {
+    width: 240px;
+    height: 25px;
+    position:absolute;
+    background-color: red;
+}

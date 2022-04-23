@@ -9,8 +9,9 @@ camera.position.z = 5;
 // renderer
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
-
+window.onload = () => {
+    document.body.appendChild(renderer.domElement);
+}
 
 // geometry
 const geometry = new THREE.BoxGeometry(1, 1, 1);
